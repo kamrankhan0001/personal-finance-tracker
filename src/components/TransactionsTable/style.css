@@ -1,0 +1,150 @@
+.my-table h2 {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .my-table{
+    margin: 2rem;
+    border-radius: 10px;
+    opacity: 5;
+  }
+  
+     .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;  
+  }     
+  
+  .input-flex {
+
+    width: 50vw !important;
+    box-shadow: 2px 2px 10px;
+    border: 1px solid grey;
+    background-color:rgba(215, 218, 247, 0.459);
+  }
+  
+  .select-input {
+    width: 40vw !important;
+    box-shadow: 2px 2px 10px;
+    border: 1px solid grey;
+    background-color:rgba(215, 218, 247, 0.459);
+    font-size: .5rem;
+    
+  }
+   
+  
+   .table-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    flex-wrap: wrap;
+  } 
+  
+  .table {
+    height: auto;
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+  }
+  
+  .ant-table {
+    border-collapse: collapse;
+    height: auto;
+    margin-top: 2rem;
+    background-color: beige;
+  }
+  
+  
+  .even-row {
+    background-color: #b5dbf3;
+    padding: 0rem;
+  }
+  
+  
+  .odd-row {
+    background-color: #d2d7e7;
+    padding: 0rem;
+  }
+  
+  .name-cell {
+    color: rgb(95, 9, 16);
+    padding: 0rem;
+  }
+  
+  .amount-cell {
+    color: rgb(5, 70, 5);
+    padding: 0rem;
+  }
+  
+  
+  .custom-btn-new-1 {
+    font-size: 12px;
+    font-weight: normal;
+    width: 32vw !important;
+    height: 30px !important;
+    box-shadow: 2px 2px 10px;
+    border: none;
+    padding: .5rem;
+  }
+  
+  .custom-btn-new-2 {
+    height: 12px !important;
+    width: 32vw !important;
+    font-size: 12px;
+    font-weight: normal;
+    padding: .5rem;
+    box-shadow: 2px 2px 10px black;
+  }
+  
+  
+  @media screen and (max-width: 758px) {
+    .table {
+      width: 100vw;
+      margin-right: 2rem;
+    }
+    
+    .btn-wrapper-new {
+      margin: 2rem;
+    }
+    
+  .name-cell {
+    
+    color: rgb(95, 9, 16);
+    padding: 0rem;
+    font-size: .6rem;
+  
+    
+  }
+  
+  .amount-cell {
+    
+    color: rgb(5, 70, 5);
+    padding: 0rem;
+    font-size: .6rem;
+  }
+    .input-flex {
+      width: 76vw !important;
+      font-size: .65rem
+    }
+    .select-input {
+      width: 76vw !important;
+      font-size: .65rem
+    }
+   
+    .custom-btn-new-1{
+      font-size: .7rem;
+      padding: .5rem;
+    }
+    .input-wrapper {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    
+  .custom-btn-new-2{
+    font-size: .65rem;
+    padding: .5rem;
+  }
+  }
